@@ -1,0 +1,157 @@
+body{
+    background:red;
+    margin:20px;
+}
+
+.padre{
+    background:yellow;
+    padding:10px;
+
+    display:grid;
+    grid-gap:5px;
+
+    grid-template-columns: 2fr 1fr 1fr;
+
+    grid-template-rows:
+    60px   
+    80px   
+    200px  
+    200px  
+    120px  
+    120px; 
+
+    grid-template-areas:
+    "c1 c1 c1"
+    "c2 c3 c4"
+    "c5 c5 c6"
+    "c5 c5 c7"
+    "c8 c9 c10"
+    "c8 c11 c12";
+}
+
+.c1{ 
+    background-color:aqua; 
+    grid-area:c1;
+    font-size:30px;
+    font-weight:bold;
+}
+.c2{ 
+    background-color:aqua; 
+    grid-area:c2;
+}
+.c3{ 
+    background-color:aqua; 
+    grid-area:c3;
+}
+.c4{ 
+    background-color:aqua; 
+    grid-area:c4;
+}
+
+.c6{ 
+    background-color:aqua; 
+    grid-area:c6;
+}
+.c7{ 
+    background-color:aqua; 
+    grid-area:c7;
+}
+.c8{ 
+    background-color:aqua; 
+    grid-area:c8;
+}
+.c9{ 
+    background-color:aqua; 
+    grid-area:c9;
+}
+.c10{
+    background-color:aqua; 
+    grid-area:c10;
+}
+.c11{ 
+    background-color:aqua; 
+    grid-area:c11;
+}
+.c12{ 
+    background-color:aqua; 
+    grid-area:c12;
+    font-size:30px;
+    font-weight:bold;
+}
+
+.c5{
+    background-color:aqua;
+    grid-area:c5;
+    position:relative;
+}
+
+
+.oreja1{
+    width:30px;
+    height:30px;
+    background:orange;
+    border-radius:50%;
+    position:absolute;
+    top:40px;
+    left:120px;
+}
+
+.oreja2{
+    width:30px;
+    height:30px;
+    background:orange;
+    border-radius:50%;
+    position:absolute;
+    top:40px;
+    left:190px;
+}
+
+.cabeza{
+    width:80px;
+    height:80px;
+    background:lightblue;
+    border-radius:50%;
+    position:absolute;
+    top:60px;
+    left:140px;
+}
+
+.ojo1{
+    width:10px;
+    height:10px;
+    background:orange;
+    border-radius:50%;
+    position:absolute;
+    top:25px;
+    left:20px;
+}
+
+.ojo2{
+    width:10px;
+    height:10px;
+    background:orange;
+    border-radius:50%;
+    position:absolute;
+    top:25px;
+    left:45px;
+}
+
+.boca{
+    width:20px;
+    height:10px;
+    background:orange;
+    border-radius:50%;
+    position:absolute;
+    top:45px;
+    left:30px;
+}
+
+.cuerpo{
+    width:120px;
+    height:80px;
+    background:lightblue;
+    border-radius:50%;
+    position:absolute;
+    top:130px;
+    left:120px;
+}
